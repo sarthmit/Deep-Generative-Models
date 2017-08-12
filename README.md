@@ -1,6 +1,6 @@
-# Deep-Generative-Models
+<h1> Deep-Generative-Models </h1>
 
-<h1> MNIST_VAE_Dense.py </h1>
+<h2> MNIST_VAE_Dense.py </h2>
 
 <h3> Latent variables dimension = 256: </h3>
 
