@@ -7,7 +7,7 @@ from scipy.stats import norm
 mnist = input_data.read_data_sets("/tmp/tensorflow/mnist/")
 latent_size = 2
 batch_size = 128
-epochs = 100 
+epochs = 75 
 
 initializer = tf.contrib.layers.xavier_initializer()
 
