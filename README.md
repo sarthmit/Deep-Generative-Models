@@ -6,4 +6,4 @@ Run the program to train it over MNIST dataset and get the latent state structur
 
 With latent dimension = 2:
 
-https://user-images.githubusercontent.com/19748754/29238283-bd44e132-7f4f-11e7-8839-27010784ddf4.png
+![Alt text](https://user-images.githubusercontent.com/19748754/29238283-bd44e132-7f4f-11e7-8839-27010784ddf4.png "Latent Structure")
