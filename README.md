@@ -36,7 +36,7 @@ Run the program to train it over MNIST dataset and get the latent state structur
 
 Latent Structure           |  Generated Digits        |  Generated Digits over Latent Space
 :-------------------------:|:-------------------------: | :----------------------------------:
-![](https://user-images.githubusercontent.com/19748754/29492915-65c6a454-85a8-11e7-8b28-1125d9610258.png)  |  ![](https://user-images.githubusercontent.com/19748754/29492914-65c0794e-85a8-11e7-8893-8623229a7cc4.png)  |  <img src="https://user-images.githubusercontent.com/19748754/29238285-bd45d02e-7f4f-11e7-9be8-905df10c256a.png" width= 68% height= 28% />
+![](https://user-images.githubusercontent.com/19748754/29492915-65c6a454-85a8-11e7-8b28-1125d9610258.png)  |  ![](https://user-images.githubusercontent.com/19748754/29492914-65c0794e-85a8-11e7-8893-8623229a7cc4.png)  |  <img src="https://user-images.githubusercontent.com/19748754/29493457-fed4d5c0-85b3-11e7-9c60-19dbd4115224.png" width= 68% height= 28% />
 
 <h2> Generative Adversarial Networks </h2>
 
