@@ -27,7 +27,7 @@ def decoder(z):
 	h2 = tf.layers.dense(h1,256,activation=tf.nn.relu,kernel_initializer = initializer,name="decoder_2")
 	h3 = tf.layers.dense(h2,512,activation=tf.nn.relu,kernel_initializer = initializer,name="decoder_3")
 	h4 = tf.layers.dense(h3,1024,activation=tf.nn.relu,kernel_initializer = initializer,name="decoder_4")	
-	output = tf.layers.dense(h2,784,kernel_initializer = initializer,name="decoder_5")
+	output = tf.layers.dense(h4,784,kernel_initializer = initializer,name="decoder_5")
 	return output, tf.nn.sigmoid(output)
 
 def generator(z):
@@ -35,7 +35,7 @@ def generator(z):
 	h2 = tf.layers.dense(h1,256,activation=tf.nn.relu,kernel_initializer = initializer,name="decoder_2",reuse=True)
 	h3 = tf.layers.dense(h2,512,activation=tf.nn.relu,kernel_initializer = initializer,name="decoder_3",reuse=True)
 	h4 = tf.layers.dense(h3,1024,activation=tf.nn.relu,kernel_initializer = initializer,name="decoder_4",reuse=True)	
-	output = tf.layers.dense(h2,784,kernel_initializer = initializer,name="decoder_5",reuse=True)
+	output = tf.layers.dense(h4,784,kernel_initializer = initializer,name="decoder_5",reuse=True)
 	return output, tf.nn.sigmoid(output)
 
 def KL_loss(mu,log_sigma):
