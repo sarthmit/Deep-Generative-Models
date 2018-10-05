@@ -49,3 +49,7 @@ Using only dense layers.
 Getting the distribution of latent space over any 2 dimensions from 256 does not make much sense and we can't visualize the digits generated over all dimensions of the latent space, so we sample random variables from latent space and generate digits from them.
 
 ![](https://user-images.githubusercontent.com/19748754/29492912-65bdc7b2-85a8-11e7-930d-c934e772dfe9.png)
+
+<h2> Adv_VAE_Sep
+  
+  Contains the code for generating adversarial examples using VAEs.
